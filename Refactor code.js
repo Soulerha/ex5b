@@ -7,19 +7,7 @@ $(document).ready(function(){
        validate(t);
        
 
-       var t1;
-       var u1;
-       
-       if(u == "F"){
-            t1 = t * (9/5) + 32;
-            u1 = "Fahrenheit";
-       }else if(u == "K"){
-            t1 =  t + 273.15;
-            u1 = "Réaumur";
-       }else if(u == "R"){
-            t1 = t * (4/5);
-            u1 = "Kelvin";
-       }
+       Temperature (t1,u1)
        
        alert("Temperature is "+t1+" in "+u1);
     });
